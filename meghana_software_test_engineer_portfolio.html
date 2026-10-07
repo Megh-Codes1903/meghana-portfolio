@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meghana S | Software Test Engineer</title>
+<style>
+:root{
+  --bg:#f7f8fc; --card:#fff; --text:#172033; --muted:#64748b;
+  --accent:#4f46e5; --accent2:#7c3aed; --border:#e5e7eb;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1100px;margin:auto;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:20px;color:var(--accent)}
+nav a{color:#334155;text-decoration:none;margin-left:20px;font-size:14px}
+nav a:hover{color:var(--accent)}
+.hero{background:linear-gradient(135deg,#111827,#312e81);color:white;padding:95px 24px 85px}
+.hero-inner{max-width:1100px;margin:auto}
+.badge{display:inline-block;padding:7px 13px;border:1px solid rgba(255,255,255,.25);border-radius:999px;font-size:13px;margin-bottom:18px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.05;margin:0 0 18px}
+.hero h2{font-size:24px;font-weight:500;margin:0 0 18px;color:#dbeafe}
+.hero p{max-width:720px;color:#dbe4f4;font-size:17px}
+.buttons{margin-top:28px}
+.btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;margin-right:10px;margin-bottom:10px}
+.btn.primary{background:white;color:#312e81}
+.btn.outline{border:1px solid rgba(255,255,255,.4);color:white}
+section{max-width:1100px;margin:auto;padding:72px 24px}
+.section-title{font-size:32px;margin:0 0 10px}
+.section-subtitle{color:var(--muted);margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:0 8px 25px rgba(15,23,42,.04)}
+.card h3{margin-top:0}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.tag{background:#eef2ff;color:#3730a3;border-radius:999px;padding:7px 11px;font-size:13px;font-weight:600}
+.timeline{border-left:2px solid #c7d2fe;padding-left:25px;margin-top:30px}
+.role{position:relative;margin-bottom:36px}
+.role:before{content:"";position:absolute;left:-34px;top:6px;width:14px;height:14px;background:var(--accent);border-radius:50%;border:4px solid var(--bg)}
+.role h3{margin:0 0 4px;font-size:21px}
+.meta{color:var(--accent);font-weight:700;font-size:14px}
+.role ul{padding-left:20px}
+.metric{font-size:30px;font-weight:800;color:var(--accent)}
+.metric-label{color:var(--muted);font-size:14px}
+.project{margin-top:30px}
+.project ul{padding-left:20px}
+.contact{background:#111827;color:white;border-radius:20px;padding:40px}
+.contact a{color:#c7d2fe}
+footer{text-align:center;padding:30px;color:var(--muted);font-size:13px}
+@media(max-width:800px){
+  .grid{grid-template-columns:1fr}
+  nav a{margin-left:9px;font-size:12px}
+  .hero{padding-top:70px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <div class="logo">Meghana S</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <span class="badge">Software Test Engineer • 3+ Years Experience</span>
+    <h1>Meghana S</h1>
+    <h2>Software Testing | Manual Testing | Test Automation</h2>
+    <p>
+      Software Test Engineer experienced in manual testing, ERP validation,
+      test automation, defect tracking, and end-to-end quality assurance.
+      Strong foundation in SDLC/STLC with hands-on exposure to Selenium,
+      Appium, Java, SQL, Jira and Postman.
+    </p>
+    <div class="buttons">
+      <a class="btn primary" href="mailto:meghanakoundinya19@gmail.com">Contact Me</a>
+      <a class="btn outline" href="https://www.linkedin.com/in/meghana-s-6aa4821b3" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-subtitle">Quality-focused testing professional with experience across enterprise applications and e-commerce testing.</p>
+  <div class="grid">
+    <div class="card"><div class="metric">3+</div><div class="metric-label">Years of software testing experience</div></div>
+    <div class="card"><div class="metric">150+</div><div class="metric-label">Automation test cases in project work</div></div>
+    <div class="card"><div class="metric">30%</div><div class="metric-label">Improvement in manual test coverage</div></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills & Expertise</h2>
+  <p class="section-subtitle">Core capabilities and tools from my professional experience.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Testing</h3>
+      <div class="tags">
+        <span class="tag">Functional Testing</span><span class="tag">Regression</span>
+        <span class="tag">Smoke</span><span class="tag">Sanity</span>
+        <span class="tag">System Testing</span><span class="tag">UAT</span>
+        <span class="tag">Performance Testing</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Automation</h3>
+      <div class="tags">
+        <span class="tag">Selenium WebDriver</span><span class="tag">Appium</span>
+        <span class="tag">TestNG</span><span class="tag">Java</span>
+        <span class="tag">API Testing</span><span class="tag">Postman</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Tools & Engineering</h3>
+      <div class="tags">
+        <span class="tag">Jira</span><span class="tag">Git</span>
+        <span class="tag">GitHub</span><span class="tag">SQL</span>
+        <span class="tag">SDLC</span><span class="tag">STLC</span>
+        <span class="tag">Test Documentation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Professional Experience</h2>
+  <div class="timeline">
+    <div class="role">
+      <h3>Software Test Engineer</h3>
+      <div class="meta">Digital Think Technologies LLP • Bengaluru • Jan 2023 – Jun 2026</div>
+      <ul>
+        <li>Designed and executed manual test cases for web applications, improving overall test coverage by 30%.</li>
+        <li>Validated ERP workflows across Finance, Procurement, Inventory, HR, Payroll, Supply Chain and CRM modules.</li>
+        <li>Tested ERP implementation, customization and enhancement requests.</li>
+        <li>Performed end-to-end validation across integrated ERP modules.</li>
+        <li>Collaborated with developers, product owners and business analysts to clarify requirements and acceptance criteria.</li>
+        <li>Performed functional, regression, smoke and sanity testing across multiple releases.</li>
+        <li>Identified, logged and tracked defects using Jira, achieving a 95% defect closure rate within sprint timelines.</li>
+        <li>Prepared and maintained test plans, test cases and execution reports.</li>
+        <li>Performed re-testing and regression testing after fixes and verified resolved defects before release.</li>
+        <li>Analyzed test results and shared quality metrics and release-status reports with stakeholders.</li>
+      </ul>
+    </div>
+    <div class="role">
+      <h3>Junior Process Associate</h3>
+      <div class="meta">Verity Global Solutions Pvt Ltd • Bengaluru • Sep 2021 – May 2022</div>
+      <ul>
+        <li>Supported the transition process for refinance closing and settlement.</li>
+        <li>Prepared lender Closing Disclosures and coordinated digital closing packages with notaries.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Project</h2>
+  <div class="card project">
+    <h3>E-commerce Website Testing</h3>
+    <p>Automation and regression testing project focused on improving coverage and issue resolution efficiency.</p>
+    <ul>
+      <li>Developed 150+ automated test cases using Selenium WebDriver with Java.</li>
+      <li>Increased test coverage by 85% for the e-commerce website.</li>
+      <li>Performed regression testing and helped ensure 95% of website features worked correctly after updates.</li>
+      <li>Collaborated with the team to report and track 100+ bugs using Jira.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="section-title">Education & Certification</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Bachelor of Engineering (B.E.)</h3>
+      <p><strong>Computer Science</strong><br>ACS College of Engineering, VTU, Bengaluru<br>2021 • 6.9 CGPA</p>
+    </div>
+    <div class="card">
+      <h3>Certification</h3>
+      <p><strong>Selenium WebDriver Certification</strong><br>Star Agile</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <h2 class="section-title">Let's Connect</h2>
+    <p>I'm interested in Software Testing, Quality Engineering and Test Automation opportunities.</p>
+    <p><strong>Email:</strong> <a href="mailto:meghanakoundinya19@gmail.com">meghanakoundinya19@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91 8217428683</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/meghana-s-6aa4821b3" target="_blank">linkedin.com/in/meghana-s-6aa4821b3</a></p>
+    <p><strong>Location:</strong> Bengaluru, India</p>
+  </div>
+</section>
+
+<footer>© 2026 Meghana S • Software Test Engineer</footer>
+</body>
+</html>
